@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejecicio 02</title>
+</head>
+
+<body>
+    <script>
+        var numeros=[0] ;
+        var continua = true;
+
+        for (var i = 0; continua; i++) {
+
+            numeros[i] = prompt('Ingrese un número:','');
+
+            numeros[i] = parseInt(numeros[i]);
+
+            var opcion = confirm("Continúa agregando parámetros a la colección=??? ");
+
+            if (opcion == false) {
+                continua = false;
+            }
+
+
+        }
+
+        var mayor = 0;
+        for (var i = 0; i < numeros.length; i++) {
+            if (numeros[i] > mayor) {
+                mayor = numeros[i];
+            }
+        }
+
+        console.log('el mayor de ' + numeros + ' es ' + mayor);
+
+    </script>
+</body>
+
+</html>
