@@ -1,0 +1,26 @@
+
+body {
+    align-content: center;
+    background-color:rgb(61, 81, 136);
+}
+
+.contenedor {
+    width: 60%;
+    margin: 0 20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    /* text-align: center; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    
+    }
+
+/* .contenedor h2{
+    text-align: center;
+} */
+
+.contenedor p{
+    font-style: italic;
+}

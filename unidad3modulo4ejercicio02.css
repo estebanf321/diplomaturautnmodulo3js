@@ -1,0 +1,18 @@
+
+body {
+    align-content: center;
+    background-color:teal;
+}
+
+.contenedor {
+    width: 40%;
+    margin: 0 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+    }

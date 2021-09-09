@@ -1,0 +1,39 @@
+
+body {
+    align-content: center;
+}
+
+.contenedor {
+width: 80%;
+margin: 0 10%;
+display:flex;
+/* background-color: yellow;
+flex-direction: row;
+flex-wrap: nowrap; */
+justify-content: flex-end;
+/* align-items: flex-end; */
+
+}
+
+.cuadrado {
+height: 50px;
+width: 50px;
+cursor:pointer;
+border: 1px solid black;
+font-size: 10px;
+text-align: center;
+color: white;
+
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+background-color: green;
+}
+
+.azul {
+background: blue;
+}
